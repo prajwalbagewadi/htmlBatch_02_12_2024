@@ -7,13 +7,70 @@
 </head>
 <body>
     <form action="">
-        <label>
-            email:<input type="text" name="email">
-        </label><br>
-        <label>
-            password:<input type="password" name="password" id="">
-        </label><br>
-        <button type="submit">Login</button>
+        <center>
+            <h1 title="Enter Login form Details">Login</h1>
+            <!-- <label>                              normal text box
+                email:<input type="text" name="email">
+            </label><br> -->
+            <label for="email"><!-- input email-->
+                email:<input type="email" name="email" id="" placeholder="enter your email">
+            </label><br>
+            <label for="password"><!-- input password-->
+                password:<input type="password" name="password" id="" placeholder="enter your password">
+            </label><br>
+            <label for="phone"><!-- input phone-->
+                phone:<input type="tel" maxlength="10" name="phone" id="">
+            </label><br>
+            <label for="DOB">
+                DOB:<input type="date" name="DOB" id="">
+            </label><br>
+            <label for="gender"><!-- input radio-->
+                gender:
+                male:<input type="radio" name="gender" id="">
+                female:<input type="radio" name="gender" id="">
+            </label><br>
+            <label for="course"> <!--drop down-->
+                course:
+                <select name="course" id="">
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="BSC(CS)">BSC(CS)</option>
+                </select>
+            </label><br>
+            <label for="document"><!--checkbox-->
+                documents:<br>
+                addharcard:<input type="checkbox" name="document" id=""><br>
+                markssheet:<input type="checkbox" name="document" id=""><br>
+                Leavingcertificate:<input type="checkbox" name="document" id=""><br>
+                castecertificate:<input type="checkbox" name="document" id=""><br>
+            </label><br>
+            <label for="upload">
+                upload files:<br>
+                <input type="file" name="upload" id="" title="Upload your documents here">
+            </label><br>
+            <label for="color">
+                color:<br>
+                <input type="color" name="color" id="" title="Select your color here">
+            </label><br>
+            <label for="url">
+                url:
+                <input type="url" name="url" id="">
+            </label><br>
+           <label for="comments">
+                comment:<br>
+                <textarea name="comment" id="" cols="5" rows="10"></textarea>
+            </label><br>
+            <label for="search">
+                search:
+                <input type="search" name="search" id="" placeholder="search in DPU">
+            </label><br>
+            <label for="search">
+                time:
+                <input type="time" name="time" id="">
+            </label><br>
+            <button type="submit">Login</button><!--button-->
+            <button type="reset">reset</button><!--button-->
+        </center>
     </form>
 </body>
 </html>
